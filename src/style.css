@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+}
+
+.sky {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.moon {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  z-index: 2;
+}
+
+.rocket {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  transition: bottom 1s ease-in-out;
+}
